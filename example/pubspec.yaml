@@ -1,0 +1,25 @@
+name: logger_example
+description: "A project demonstrating the capabilities of the logger."
+version: 1.0.0+1
+
+publish_to: none
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  synaptic_logger_file_writer:
+    # TODO: Publish synaptic_logger_file_writer package first
+    git:
+      url: https://gitlab.synaptik.network/flutter/homebrew-packages/logger-crumbs/logger-file-writer.git
+  synaptic_thread_safe_logger:
+    git:
+      url: https://gitlab.synaptik.network/flutter/homebrew-packages/logger-service.git
+      ref: feature/logger_v2
+dev_dependencies:
+  lint: ^2.3.0
+
+flutter:
+  uses-material-design: true

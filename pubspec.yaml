@@ -1,0 +1,29 @@
+name: syn_thread_safe_logger
+description: Thread safe general logger for application
+
+repository: https://github.com/synaptik-develop/syn_thread_safe_logger
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  meta: ^1.15.0
+  path: ^1.9.1
+  syn_log_interface: ^1.0.2
+  syn_logger_console_writer: ^1.0.2
+  syn_logger_file_writer: ^1.0.0
+  syn_platform_utils: ^1.0.1
+
+dev_dependencies:
+  dart_code_linter: ^2.0.0
+  dartdoc: ^8.3.2
+  lint: ^2.8.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:

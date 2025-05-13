@@ -1,0 +1,19 @@
+# https://github.com/dart-lang/dartdoc/issues/1610
+dartdoc:
+  categoryOrder: ["Services", 'Models', 'Utils',]
+  subCategoryOrder: ["Uncategorized"]
+  showUndocumentedCategories: true
+  sanitizeHtml: true
+  categories:
+    "Services":
+      markdown: doc/markdown/services.doc.md
+      name: Services, stateless and context-independency.
+    "Models":
+      markdown: doc/markdown/models.doc.md
+      name: Data models, as from API as local.
+    "Utils":
+      markdown: doc/markdown/utils.doc.md
+      name: Collection of usefull utils.
+  subcategories: ['Uncategorized']
+# Remove all generated file from doc
+  nodoc: ["**.g.dart",]
