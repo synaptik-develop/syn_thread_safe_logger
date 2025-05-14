@@ -1,8 +1,7 @@
-# Logger
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
 
-Расширяемый пакет для логгирования приложений, само пишущее ядро находится в отдельном изоляте, что позволяет его использовать в приложениях с более чем одним изолятом.
+# syn_thread_safe_logger
 
-Позволяет создавать собственные классы для написания логов в различные выводы (консоль, файл, firebase и тд), с помощью реализации интерфейса LogWriter
+Extensible logging package for logging applications, the writing core is placed in a separate isolate, allowing it to be used in applications with more than one isolate.
 
-
-!!ВНИМАНИЕ HOT-RESTART ПОКА НЕ РАБОТАЕТ!!!
+Allows you to create custom classes for writing logs to different outputs (console, file, firebase, etc), by implementing the `LogWriter` interface

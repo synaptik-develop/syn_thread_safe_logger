@@ -5,21 +5,18 @@ version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=3.2.3 <4.0.0"
+  sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  synaptic_logger_file_writer:
-    # TODO: Publish synaptic_logger_file_writer package first
-    git:
-      url: https://gitlab.synaptik.network/flutter/homebrew-packages/logger-crumbs/logger-file-writer.git
-  synaptic_thread_safe_logger:
-    git:
-      url: https://gitlab.synaptik.network/flutter/homebrew-packages/logger-service.git
-      ref: feature/logger_v2
-dev_dependencies:
-  lint: ^2.3.0
+  syn_log_interface: ^1.0.3
+  syn_logger_file_writer: ^1.0.1
+  syn_thread_safe_logger: ^1.0.0
 
 flutter:
   uses-material-design: true
+dev_dependencies:
+  dart_code_linter: ^2.0.0
+  lint: ^2.8.0

@@ -1,19 +1,19 @@
 name: syn_thread_safe_logger
-description: Thread safe general logger for application
-
+description: Thread safe general logger for application. Can show logs in console, write in file.
 repository: https://github.com/synaptik-develop/syn_thread_safe_logger
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=3.7.0 <4.0.0"
+  flutter: ">=3.29.0"
 
 dependencies:
-  meta: ^1.15.0
+  meta: ^1.16.0
   path: ^1.9.1
-  syn_log_interface: ^1.0.2
+  syn_log_interface: ^1.0.3
   syn_logger_console_writer: ^1.0.2
-  syn_logger_file_writer: ^1.0.0
+  syn_logger_file_writer: ^1.0.1
   syn_platform_utils: ^1.0.1
 
 dev_dependencies:
