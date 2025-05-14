@@ -10,6 +10,7 @@ import 'package:syn_thread_safe_logger/src/parts/filter/filter.export.dart';
 
 part 'parts/core/isolate_bridge.dart';
 
+/// External `interface` for uses in application.
 enum Log {
   v,
   d,

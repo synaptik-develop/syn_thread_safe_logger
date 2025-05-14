@@ -3,6 +3,7 @@ import 'dart:collection';
 import 'package:meta/meta.dart';
 import 'package:syn_log_interface/syn_log_interface.dart';
 
+/// Base class for filter system.
 @immutable
 abstract base class IFilter {
   @literal
